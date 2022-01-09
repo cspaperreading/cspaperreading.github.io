@@ -1111,6 +1111,94 @@
         <td class="archtd" style="width:6%; text-align: center;">Jan 7, 2022</td>
       </tr>
 
+
+      <tr>
+        <td class="ranktd" style="width:2%; text-align: center;">26</td>
+        <td class="venuetd" style="width:6%;"> TKDE 2020</td>
+        <td class="methoddt" style="width:30%;">
+          <button onclick="promptBox('prompt26')">Ensemble of Classifiers Based on Multiobjective Genetic Sampling for Imbalanced Data</button>
+          <div id="prompt26">
+            <div id="prompt-content26">
+              <h3>Ensemble of Classifiers Based on Multiobjective Genetic Sampling for Imbalanced Data<i onclick="$('#prompt26').hide()"></i></h3>
+              <hr>
+              <p>
+                Imbalanced datasets may negatively impact the predictive performance of most classical classification algorithms. This problem, commonly found in real-world, is known in machine learning domain as imbalanced learning. Most techniques proposed to deal with imbalanced learning have been proposed and applied only to binary classification. When applied to multiclass tasks, their efficiency usually decreases and negative side effects may appear. This paper addresses these limitations by presenting a novel adaptive approach, E-MOSAIC (Ensemble of Classifiers based on MultiObjective Genetic Sampling for Imbalanced Classification). E-MOSAIC evolves a selection of samples extracted from training dataset, which are treated as individuals of a MOEA. The multiobjective process looks for the best combinations of instances capable of producing classifiers with high predictive accuracy in all classes. E-MOSAIC also incorporates two mechanisms to promote the diversity of these classifiers, which are combined into an ensemble specifically designed for imbalanced learning. Experiments using twenty imbalanced multi-class datasets were carried out. In these experiments, the predictive performance of E-MOSAIC is compared with state-of-the-art methods, including methods based on presampling, active-learning, cost-sensitive, and boosting. According to the experimental results, the proposed method obtained the best predictive performance for the multiclass accuracy measures mAUC and G-mean.
+                <p style="text-align: center;">
+                <img src="./images/tkde2020emosaicensemble.jpg" width="100%">
+              </p>
+            </div>
+          </div>
+          <a href="https://doi.org/10.1109/TKDE.2019.2898861"
+            target="_blank">
+            <img src="./images/link.png"></a>
+          <a href="./file/Ensemble_of_Classifiers_Based_on_Multiobjective_Genetic_Sampling_for_Imbalanced_Data.pdf" target="_blank">
+            <img src="./images/pdf.gif"></a>
+        </td>
+        <td class="venuetd" style="width:21%;">Everlandio R. Q. Fernandes, André C. P. L. F. de Carvalho & Xin Yao.</td>
+        <td class="datatd" style="width:4%; text-align: center;">&#215;</td>
+        <td class="datatd" style="width:18%;"> [集成学习] [进化计算] [多目标优化] [遗传算法][抽样] </td>
+        <td class="archtd" style="width:6%; text-align: center;">Jan 7, 2022</td>
+      </tr>
+
+      <tr>
+        <td class="ranktd" style="width:2%; text-align: center;">27</td>
+        <td class="venuetd" style="width:6%;">KDD 2021</td>
+        <td class="methoddt" style="width:30%;">
+          <button onclick="promptBox('prompt27')">ImGAGN: Imbalanced Network Embedding via Generative Adversarial Graph Networks</button>
+          <div id="prompt27">
+            <div id="prompt-content27">
+              <h3>ImGAGN: Imbalanced Network Embedding via Generative Adversarial Graph Networks <i onclick="$('#prompt27').hide()"></i></h3>
+              <hr>
+              <p>
+                Imbalanced classification on graphs is ubiquitous yet challenging in many real-world applications, such as fraudulent node detection. Recently, graph neural networks (GNNs) have shown promising performance on many network analysis tasks. However, most existing GNNs have almost exclusively focused on the balanced networks, and would get unappealing performance on the imbalanced networks. To bridge this gap, in this paper, we present a generative adversarial graph network model, called ImGAGN to address the imbalanced classification problem on graphs. It introduces a novel generator for graph structure data, named GraphGenerator, which can simulate both the minority class nodes' attribute distribution and network topological structure distribution by generating a set of synthetic minority nodes such that the number of nodes in different classes can be balanced. Then a graph convolutional network (GCN) discriminator is trained to discriminate between real nodes and fake (i.e., generated) nodes, and also between minority nodes and majority nodes on the synthetic balanced network. To validate the effectiveness of the proposed method, extensive experiments are conducted on four real-world imbalanced network datasets. Experimental results demonstrate that the proposed method ImGAGN outperforms state-of-the-art algorithms for semi-supervised imbalanced node classification task.
+                <p style="text-align: center;">
+                <img src="./images/kdd2021imgagn.jpg" width="100%">
+              </p>
+            </div>
+          </div>
+          <a href="https://doi.org/10.1145/3447548.3467334"
+            target="_blank">
+            <img src="./images/link.png"></a>
+          <a href="./file/3447548.3467334.pdf" target="_blank">
+            <img src="./images/pdf.gif"></a>
+        </td>
+        <td class="venuetd" style="width:21%;">Liang Qu, Huaisheng Zhu, Ruiqi Zheng, Yuhui Shi, Hongzhi Yin.</td>
+        <td class="datatd" style="width:4%; text-align: center;"><a href="https://github.com/Leo-Q-316/ImGAGN" , target="_blank">[ImGAGN]</a></td>
+        <td class="datatd" style="width:18%;"><a href="https://blog.csdn.net/qq_39519203/article/details/120968669?spm=1001.2014.3001.5501" target="_blank">[CSDN论文解读]</a>
+          [类不平衡学习] [半监督学习] [生成对抗网络] [图结构数据] [数据生成]</td>
+        <td class="archtd" style="width:6%; text-align: center;">Jan 8, 2022</td>
+      </tr>
+
+      <tr>
+        <td class="ranktd" style="width:2%; text-align: center;">28</td>
+        <td class="venuetd" style="width:6%;">ICLR 2020</td>
+        <td class="methoddt" style="width:30%;">
+          <button onclick="promptBox('prompt28')">Decoupling Representation and Classifier for Long-Tailed Recognitions</button>
+          <div id="prompt28">
+            <div id="prompt-content28">
+              <h3>Decoupling Representation and Classifier for Long-Tailed Recognition <i onclick="$('#prompt28').hide()"></i></h3>
+              <hr>
+              <p>
+                The long-tail distribution of the visual world poses great challenges for deep learning based classification models on how to handle the class imbalance problem. Existing solutions usually involve class-balancing strategies, e.g., by loss re-weighting, data re-sampling, or transfer learning from head- to tail-classes, but most of them adhere to the scheme of jointly learning representations and classifiers. In this work, we decouple the learning procedure into representation learning and classification, and systematically explore how different balancing strategies affect them for long-tailed recognition. The findings are surprising: (1) data imbalance might not be an issue in learning high-quality representations; (2) with representations learned with the simplest instance-balanced (natural) sampling, it is also possible to achieve strong long-tailed recognition ability by adjusting only the classifier. We conduct extensive experiments and set new state-of-the-art performance on common long-tailed benchmarks like ImageNet-LT, Places-LT and iNaturalist, showing that it is possible to outperform carefully designed losses, sampling strategies, even complex modules with memory, by using a straightforward approach that decouples representation and classification. Our code is available at https://github.com/facebookresearch/classifier-balancing.
+                 <p style="text-align: center;">
+                <img src="./images/ICLR2020LWS.jpg" width="100%">
+              </p>
+            </div>
+          </div>
+          <a href="https://openreview.net/forum?id=r1gRTCVFvB"
+            target="_blank">
+            <img src="./images/link.png"></a>
+          <a href="./file/decoupling_representation_and_.pdf" target="_blank">
+            <img src="./images/pdf.gif"></a>
+        </td>
+        <td class="venuetd" style="width:21%;">Bingyi Kang, Saining Xie, Marcus Rohrbach, Zhicheng Yan, Albert Gordo, Jiashi Feng & Yannis Kalantidis.</td>
+        <td class="datatd" style="width:4%; text-align: center;"><a href="https://github.com/facebookresearch/classifier-balancing" , target="_blank">[code]</a></td>
+        <td class="datatd" style="width:18%;"><a href="https://zhuanlan.zhihu.com/p/111518894" , target="_blank">[知乎笔记]</a>
+          &nbsp;&nbsp; <a href="https://www.linkresearcher.com/theses/5c3fe43b-2ce8-4047-b8b4-de2dbb37b858" ,
+            target="_blank">[学习表征和分类器]</a> [长尾数据] [分类器耦合] [类别特征表示学习]</td>
+        <td class="archtd" style="width:6%; text-align: center;">Jan 9, 2022</td>
+      </tr>
+
     </table>
 </body>
 
