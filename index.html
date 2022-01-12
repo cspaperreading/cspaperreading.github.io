@@ -1199,6 +1199,99 @@
         <td class="archtd" style="width:6%; text-align: center;">Jan 9, 2022</td>
       </tr>
 
+
+
+      <tr>
+        <td class="ranktd" style="width:2%; text-align: center;">29</td>
+        <td class="venuetd" style="width:6%;">Sleep 2019</td>
+        <td class="methoddt" style="width:30%;">
+          <button onclick="promptBox('prompt29')">Sleep stage prediction with raw acceleration and photoplethysmography heart rate data<br> derived from a consumer wearable device
+          </button>
+          <div id="prompt29">
+            <div id="prompt-content29">
+              <h3>Sleep stage prediction with raw acceleration and photoplethysmography heart rate data derived from a consumer wearable device<i onclick="$('#prompt29').hide()"></i>
+              </h3>
+              <hr>
+              <p>
+                Wearable, multisensor, consumer devices that estimate sleep are now commonplace, but the algorithms used by these devices to score sleep are not open source, and the raw sensor data is rarely accessible for external use. As a result, these devices are limited in their usefulness for clinical and research applications, despite holding much promise. We used a mobile application of our own creation to collect raw acceleration data and heart rate from the Apple Watch worn by participants undergoing polysomnography, as well as during the ambulatory period preceding in lab testing. Using this data, we compared the contributions of multiple features (motion, local standard deviation in heart rate, and “clock proxy”) to performance across several classifiers. Best performance was achieved using neural nets, though the differences across classifiers were generally small. For sleep-wake classification, our method scored 90% of epochs correctly, with 59.6% of true wake epochs (specificity) and 93% of true sleep epochs (sensitivity) scored correctly. Accuracy for differentiating wake, NREM sleep, and REM sleep was approximately 72% when all features were used. We generalized our results by testing the models trained on Apple Watch data using data from the Multi-ethnic Study of Atherosclerosis (MESA), and found that we were able to predict sleep with performance comparable to testing on our own dataset. This study demonstrates, for the first time, the ability to analyze raw acceleration and heart rate data from a ubiquitous wearable device with accepted, disclosed mathematical methods to improve accuracy of sleep and sleep stage prediction.
+                <p style="text-align: center;">
+                <img src="./images/sleep2019psg.jpg" width="70%">
+              </p>
+            </div>
+          </div>
+          <a href="https://doi.org/10.1093/sleep/zsz180"
+            target="_blank">
+            <img src="./images/link.png"></a>
+          <a href="./file/zsz180.pdf" target="_blank">
+            <img src="./images/pdf.gif"></a>
+        </td>
+        <td class="venuetd" style="width:21%;">Olivia Walch, Yitong Huang, Daniel Forger, Cathy Goldstein.</td>
+        <td class="datatd" style="width:4%; text-align: center;"><a href="https://github.com/ojwalch/sleep_classifiers" , target="_blank">[code]</a></td>
+        <td class="datatd" style="width:18%;"><a href="https://alpha.physionet.org/content/sleep-accel/1.0.0/" , target="_blank">[Data]</a>[睡眠分期][类不平衡学习]<a href="https://assets.researchsquare.com/files/rs-1208553/v1/2b9e1b8c-93aa-4547-969e-4cc58b5d7916.pdf?c=1641397918" , target="_blank">[类似文章]</a></td>
+        <td class="archtd" style="width:6%; text-align: center;">Jan 10, 2022</td>
+      </tr>
+
+
+
+      <tr>
+        <td class="ranktd" style="width:2%; text-align: center;">30</td>
+        <td class="venuetd" style="width:6%;">ECML PKDD 2021</td>
+        <td class="methoddt" style="width:30%;">
+          <button onclick="promptBox('prompt30')">ConCAD: Contrastive Learning-Based Cross Attention for Sleep Apnea Detection</button>
+          <div id="prompt30">
+            <div id="prompt-content30">
+              <h3>ConCAD: Contrastive Learning-Based Cross Attention for Sleep Apnea Detection<i onclick="$('#prompt30').hide()"></i>
+              </h3>
+              <hr>
+              <p>
+                With recent advancements in deep learning methods, automatically learning deep features from the original data is becoming an effective and widespread approach. However, the hand-crafted expert knowledge-based features are still insightful. These expert-curated features can increase the model’s generalization and remind the model of some data characteristics, such as the time interval between two patterns. It is particularly advantageous in tasks with the clinically-relevant data, where the data are usually limited and complex. To keep both implicit deep features and expert-curated explicit features together, an effective fusion strategy is becoming indispensable. In this work, we focus on a specific clinical application, i.e., sleep apnea detection. In this context, we propose a contrastive learning-based cross attention framework for sleep apnea detection (named ConCAD). The cross attention mechanism can fuse the deep and expert features by automatically assigning attention weights based on their importance. Contrastive learning can learn better representations by keeping the instances of each class closer and pushing away instances from different classes in the embedding space concurrently. Furthermore, a new hybrid loss is designed to simultaneously conduct contrastive learning and classification by integrating a supervised contrastive loss with a cross-entropy loss. Our proposed framework can be easily integrated into standard deep learning models to utilize expert knowledge and contrastive learning to boost performance. As demonstrated on two public ECG dataset with sleep apnea annotation, ConCAD significantly improves the detection performance and outperforms state-of-art benchmark methods.
+                <p style="text-align: center;">
+                <img src="./images/ecmlpkdd2021concad.jpg" width="70%">
+              </p>
+            </div>
+          </div>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-030-86517-7_5"
+            target="_blank">
+            <img src="./images/link.png"></a>
+          <a href="./file/Huang-Ma2021_Chapter_ConCADContrastiveLearning-Base.pdf" target="_blank">
+            <img src="./images/pdf.gif"></a>
+        </td>
+        <td class="venuetd" style="width:21%;">Guanjie HuangEmail authorFenglong Ma.</td>
+        <td class="datatd" style="width:4%; text-align: center;">&#215;</td>
+        <td class="datatd" style="width:18%;">[睡眠分期][对比学习]</td>
+        <td class="archtd" style="width:6%; text-align: center;">Jan 10, 2022</td>
+      </tr>
+
+      <tr>
+        <td class="ranktd" style="width:2%; text-align: center;">31</td>
+        <td class="venuetd" style="width:6%;">TKDE 2009</td>
+        <td class="methoddt" style="width:30%;">
+          <button onclick="promptBox('prompt31')">A Survey on Transfer Learning</button>
+          <div id="prompt31">
+            <div id="prompt-content31">
+              <h3>A Survey on Transfer Learning<i onclick="$('#prompt31').hide()"></i>
+              </h3>
+              <hr>
+              <p>
+                A major assumption in many machine learning and data mining algorithms is that the training and future data must be in the same feature space and have the same distribution. However, in many real-world applications, this assumption may not hold. For example, we sometimes have a classification task in one domain of interest, but we only have sufficient training data in another domain of interest, where the latter data may be in a different feature space or follow a different data distribution. In such cases, knowledge transfer, if done successfully, would greatly improve the performance of learning by avoiding much expensive data-labeling efforts. In recent years, transfer learning has emerged as a new learning framework to address this problem. This survey focuses on categorizing and reviewing the current progress on transfer learning for classification, regression, and clustering problems. In this survey, we discuss the relationship between transfer learning and other related machine learning techniques such as domain adaptation, multitask learning and sample selection bias, as well as covariate shift. We also explore some potential future issues in transfer learning research.
+                <p style="text-align: center;">
+                <img src="./images/TKDE2009TRANS.jpg" width="70%">
+              </p>
+            </div>
+          </div>
+          <a href="https://doi.org/10.1109/TKDE.2009.191" target="_blank">
+            <img src="./images/link.png"></a>
+          <a href="./file/A_Survey_on_Transfer_Learning.pdf" target="_blank">
+            <img src="./images/pdf.gif"></a>
+        </td>
+        <td class="venuetd" style="width:21%;">Sinno Jialin Pan, Qiang Yang.</td>
+        <td class="datatd" style="width:4%; text-align: center;">&#215;</td>
+        <td class="datatd" style="width:18%;">[迁移学习][Transfer Learning][综述]<a href="https://zhuanlan.zhihu.com/p/144139333" , target="_blank">[知乎笔记]</a></td>
+        <td class="archtd" style="width:6%; text-align: center;">Jan 10, 2022</td>
+      </tr>
+
+
+      
     </table>
 </body>
 
